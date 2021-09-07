@@ -1,0 +1,19 @@
+Package: ohwhaley
+Title: Cute Wale Message
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Lyndal",
+           family = "Henden",
+           role = c("aut", "cre"),
+           email = "lyndal.henden@mq.edu.au")
+Description: Prints a whale ASCII delivering a cute message in the console.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    magrittr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
